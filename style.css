@@ -1,0 +1,12 @@
+body {background-color: #f6db6b;background-image: repeating-linear-gradient(to right, transparent, transparent 20px, rgba(255, 255, 255, 0.1) 20px,rgba(255, 255, 255, 0.1) 22px, transparent 22px, transparent 42px); }
+.{box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.card-wrapper{display: flex; justify-content: center; align-items: center;}
+.card{background-color: #ffffff; width: 350px; border-radius: 20px; border: 3px solid #000000; box-shadow: 8px 8px 0px 0px rgba(0,0,0, 1); overflow: hidden; display: flex; flex-direction: column;}
+.card-image{width: 100%; height: auto; display: block;}
+.card-content{padding: 24px; display: flex; flex-direction: column; gap: 12px;}
+.tag{background-color: #f6db6b; color: #000000; padding: 6px 12px; border-radius: 8px; font-weight: bold; display: inline-block; align-self: flex-start; border: 1px solid #000000;}
+.publish-date{color: #555555; font-size: 14px;}
+.card-description{color: #666666; font-size: 16px; line-height: 1.5;}
+.card-autor{margin-top: 16px; display: flex; align-items: center; gap: 12px;}
+.author-avatar{ width: 32px; height: 32px; border-radius: 50%;}
+.author-name{color: #000000; font-weight: bold; font-size: 16px;}
